@@ -1,1 +1,54 @@
-# Ruby-on-Rails-para-iniciantes
+# Ruby on Rails para iniciantes
+
+https://www.youtube.com/playlist?list=PLe3LRfCs4go-mkvHRMSXEOG-HDbzesyaP
+
+- Aula 01 - A história do Ruby / Ruby on Rails
+- Aula 02 - O que eu preciso para trabalhar com Ruby/Rails?
+- Aula 03 - Arquitetura MVC, Generators e Gerando o 1o projeto
+- Aula 04 - Estrutura de pastas do projeto e o Bundle
+- Aula 05 - Documentação Ruby, IRB e Pry
+- Aula 06 - Array, Hash, Métodos, Parâmetros e Blocos
+- Aula 07 - Classes, Módulos, Mixins e o Yield
+- Aula 08 - Banco de Dados e Rake   
+- Aula 09 - CoC e Criando o 1o Scaffold
+- Aula 10 - Migrations, analisando e usando o Scaffold
+- Aula 11 - Views, Embedded Ruby e Textos Interpolados com Variáveis
+- Aula 12 - Active Record, Rails Console e Variáveis de Instância
+- Aula 13 - Rotas, Criando um Controller e Usando Helpers
+- Aula 14 - Rotas REST/Restful
+- Aula 15 - Symbols x Strings e brincando com Active Record
+- Aula 16 - Controllers, Filtros e Partials
+- Aula 17 - Helpers e Params
+- Aula 18 - i18n - Internationalization
+- Aula 19 - Twitter Bootstrap e i18n para Active Record
+- Aula 20 - Criando uma pequena aplicação
+- Aula 21 - Usando o Rails Composer
+- Aula 22 - Rake db:seed
+- Aula 23 - Criando suas próprias Rake Tasks
+- Aula 24 - Associações
+- Aula 25 - Associações na View - Parte 1
+- Aula 26 - Associações na View - Parte 2 e Criando helpers
+- Aula 27 - Adicionando novos campos após o scaffold
+- Aula 28 - Validações e Criando Métodos no Model
+- Aula 29 - Upload de Imagens/Arquivos
+- Aula 30 - Fazendo o 1o deploy no Heroku
+- Aula 31 - Nitrous.IO
+- Aula 32 - Self e Monkey Patch em Ruby
+- Aula 33 - Métodos de Instância vs Métodos de Classe
+- Aula 34 - Singleton Pattern vs Singleton Class
+- Aula 35 - Parênteses, Colchetes e Chaves no Ruby
+- Aula 36 - Criando um formulário de pesquisa
+- Aula 37 - Formulários Complexos / Nested Attributes
+- Aula 38 - Autenticação de Usuários com Devise (Básico)
+- Aula 39 - Usando autorização com Pundit e Devise (Básico)
+- Aula 40 - Criando pesquisas com o Ransack (Básico)
+- Aula 41 - Conhecendo o Cloud 9
+- Aula 42 - Testes com Rails - Parte 1/2
+- Aula 43 - Testes com Rails - Parte 2/2
+- Aula 44 - Asset Pipeline 1/2
+- Aula 45 - Asset Pipeline 2/2
+- Aula 46 - Ajax
+- Aula 47 - Notify.js + Rails
+- Aula 48 - Has Many Through + Cocoon gem
+- Aula 49 - Rails Admin Interfaces
+- Aula 50
