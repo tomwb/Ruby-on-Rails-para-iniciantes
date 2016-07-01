@@ -1,0 +1,25 @@
+"pt-BR":
+  activerecord:
+    models:
+      customer: "Cliente"
+      friend: "Amigos"
+      annotation: "Anotações"
+    attributes:
+      costumer:
+        id: "Identificador"
+        name: "Nome"
+        email: "Email"
+        birthday: "Aniversario"
+        obs: "Observação"
+        created_at: "Criado em"
+      friend:
+        id: "Identificador"
+        name: "Nome"
+        address: "Endereço"
+        email: "Email"
+        phone: "telefone"
+        created_at: "Criado em"
+      annotation:
+        id: "Identificador"
+        body: "texto"
+        created_at: "Criado em"

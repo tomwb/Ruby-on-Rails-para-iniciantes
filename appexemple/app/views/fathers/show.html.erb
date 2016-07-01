@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @father.name %>
+
+  <hr>
+  <strong>Ocupação:</strong>
+  <%= @father.occupation.description %>
+
+  <hr>
+  <ul>
+  <% @father.children.each do |child| %>
+  	<li><%= "#{child.name} - #{pegar_sexo(child.sex)}" %></li>
+  <% end %>
+</ul>
+</p>
+
+<%= link_to 'Edit', edit_father_path(@father) %> |
+<%= link_to 'Back', fathers_path %>
