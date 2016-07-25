@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160701201432) do
+ActiveRecord::Schema.define(version: 20160708180212) do
+
+  create_table "addresses", force: true do |t|
+    t.string   "street"
+    t.string   "zip"
+    t.integer  "customer_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "addresses", ["customer_id"], name: "index_addresses_on_customer_id", using: :btree
 
   create_table "annotations", force: true do |t|
     t.text     "body"
@@ -45,6 +55,10 @@ ActiveRecord::Schema.define(version: 20160701201432) do
     t.string   "cpf"
     t.string   "email"
     t.integer  "occupation_id"
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   add_index "fathers", ["occupation_id"], name: "index_fathers_on_occupation_id", using: :btree

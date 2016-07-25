@@ -1,4 +1,4 @@
-<%= form_for(@father) do |f| %>
+<%= form_for @father, html: { multipart: true } do |f| %>
   <% if @father.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@father.errors.count, "error") %> prohibited this father from being saved:</h2>
@@ -28,6 +28,10 @@
     <%= f.collection_select(:occupation_id, @occupations, 
           :id, :description, 
           {include_blank: "Selecione"}) %>
+  </div>
+  <div class="field">
+    <%= f.label :avatar %><br>
+    <%= f.file_field :avatar %>
   </div>
   <div class="actions">
     <%= f.submit %>

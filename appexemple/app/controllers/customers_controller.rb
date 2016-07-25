@@ -4,7 +4,12 @@ class CustomersController < ApplicationController
   # GET /customers
   # GET /customers.json
   def index
-    @customers = Customer.all
+    if params[:search]
+      # @customers = Customer.where("name like ?", "%#{params[:search]}%")
+      @customers = Customer.search(params[:search])
+    else
+      @customers = Customer.all
+    end
   end
 
   # GET /customers/1
@@ -15,6 +20,7 @@ class CustomersController < ApplicationController
   # GET /customers/new
   def new
     @customer = Customer.new
+    @customer.build_address
   end
 
   # GET /customers/1/edit
@@ -69,6 +75,6 @@ class CustomersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def customer_params
-      params.require(:customer).permit(:name, :email, :birthday, :obs)
+      params.require(:customer).permit(:name, :email, :birthday, :obs, :address_attributes => [:street,:zip])
     end
 end

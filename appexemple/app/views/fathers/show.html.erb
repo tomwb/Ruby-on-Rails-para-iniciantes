@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
-
+<%= image_tag @father.avatar.url(:thumb) %>
 <p>
   <strong>Name:</strong>
   <%= @father.name %>
 
   <hr>
   <strong>Ocupação:</strong>
-  <%= @father.occupation.description %>
+  <%= @father.occupation_description %>
 
   <hr>
   <ul>
